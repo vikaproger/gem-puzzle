@@ -1,0 +1,50 @@
+@import url(normalize.css);
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cells__wrapper {
+
+    width: 450px;
+    height: 450px;
+    border: 1px solid black;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: lavender;
+
+    
+  
+}
+
+.field {
+    width: 430px;
+    height: 430px;
+    position: relative;
+}
+
+.cell {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    transition: all 1s;
+    border: 3px solid purple;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.cell-hidden {
+    visibility: hidden;
+}
+
+
