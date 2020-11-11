@@ -16,26 +16,7 @@ menuListItem.className = "menu__list__item";
 menuListItem.innerHTML = "NEW GAME";
 menuList.append(menuListItem);
 
-// const menuListItem3 = document.createElement("li");
-// menuListItem3.className = "menu__list__item";
-// menuListItem3.innerHTML = "SAVE GAME";
-// menuList.append(menuListItem3);
 
-// const menuListItem4 = document.createElement("li");
-// menuListItem4.className = "menu__list__item";
-// menuListItem4.innerHTML = "CONTINUE GAME";
-// menuList.append(menuListItem4);
-
-
-// const menuListItem5 = document.createElement("li");
-// menuListItem5.className = "menu__list__item";
-// menuListItem5.innerHTML = "SCORE";
-// menuList.append(menuListItem5);
-
-// const menuListItem6 = document.createElement("li");
-// menuListItem6.className = "menu__list__item";
-// menuListItem6.innerHTML = "Instruction";
-// menuList.append(menuListItem6);
 
 const sound = document.createElement('div');
 sound.classList.add('sound');
